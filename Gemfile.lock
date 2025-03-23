@@ -1,3 +1,20 @@
+PATH
+  remote: ../../rubocop
+  specs:
+    rubocop (1.74.0)
+      json (~> 2.3)
+      language_server-protocol (~> 3.17.0.2)
+      lint_roller (~> 1.1.0)
+      parallel (~> 1.10)
+      parser (>= 3.3.0.2)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 2.9.3, < 3.0)
+      rubocop-ast (>= 1.41.0, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 2.4.0, < 4.0)
+    rubocop-ast (1.41.0)
+      parser (>= 3.3.7.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -12,19 +29,6 @@ GEM
     racc (1.8.1)
     rainbow (3.1.1)
     regexp_parser (2.10.0)
-    rubocop (1.74.0)
-      json (~> 2.3)
-      language_server-protocol (~> 3.17.0.2)
-      lint_roller (~> 1.1.0)
-      parallel (~> 1.10)
-      parser (>= 3.3.0.2)
-      rainbow (>= 2.2.2, < 4.0)
-      regexp_parser (>= 2.9.3, < 3.0)
-      rubocop-ast (>= 1.41.0, < 2.0)
-      ruby-progressbar (~> 1.7)
-      unicode-display_width (>= 2.4.0, < 4.0)
-    rubocop-ast (1.41.0)
-      parser (>= 3.3.7.2)
     ruby-progressbar (1.13.0)
     unicode-display_width (3.1.4)
       unicode-emoji (~> 4.0, >= 4.0.4)
@@ -35,7 +39,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rubocop
+  rubocop!
 
 BUNDLED WITH
    2.6.6
